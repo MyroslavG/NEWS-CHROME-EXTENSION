@@ -6,14 +6,10 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/')
-def home():
-    return "HOME"
-
-@app.route('/get_url')
 @cross_origin()
-def get_url():
+def home():
     result = "https://chat.openai.com/"
-    return jsonify(result)
+    return render_template('main.html', result=result)
 
 if __name__ == '__main__':
     app.run(debug=True)
