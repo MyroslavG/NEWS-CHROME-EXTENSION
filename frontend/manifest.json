@@ -1,0 +1,11 @@
+{
+    "name": "HOT NEWS",
+    "version": "1.0.0",
+    "description": "The hottest news",
+    "manifest_version": 3,
+    "author": "Myroslav Vozniak",
+    "action":{
+        "default_popup": "main.html",
+        "default_title": "HOT NEWS"
+    }
+}
