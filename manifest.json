@@ -1,11 +1,11 @@
 {
-    "name": "HOT NEWS",
+    "name": "URL SHORTENER",
     "version": "1.0.0",
-    "description": "The hottest news",
+    "description": "This chrome extension shortens URLs",
     "manifest_version": 3,
     "author": "Myroslav Vozniak",
     "action":{
-        "default_popup": "main.html",
-        "default_title": "HOT NEWS"
+        "default_popup": "index.html",
+        "default_title": "URL SHORTENER"
     }
 }
